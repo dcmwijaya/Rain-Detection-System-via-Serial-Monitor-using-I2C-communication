@@ -5,7 +5,7 @@
 
 # Rain-Detection-System-with-I2C-communication
 <strong>Solo Project: Rain Detection System with I2C communication</strong><br><br>
-It can work well with or without water. When in wet condition, the sensor will turn on the LED and send a response according to the situation. When dry, the sensor will turn off the LED and send a response according to the situation. This project was created to improve the quality of the rain detection system. The innovation applied in this project is I2C communication.
+This device can work well with or without water. When in wet condition, the sensor will turn on the LED and send a response according to the situation. When dry, the sensor will turn off the LED and send a response according to the situation. This project was created to improve the quality of the rain detection system. The innovation applied in this project is I2C communication.
 
 <br><br>
 
