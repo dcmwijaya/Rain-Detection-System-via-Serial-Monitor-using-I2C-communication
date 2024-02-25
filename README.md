@@ -17,6 +17,7 @@ Coming Soon...
 | Driver | USB-Serial CH340 |
 | Communications Protocol | Inter Integrated Circuit (I2C) |
 | Programming Language | C/C++ |
+| Arduino Library | Wire (default) |
 | Actuators | LED (x1) |
 | Sensor | MH-RD: Raindrop Sensor Module (x1) |
 | Other Components | • USB type B cable - USB type A (x1)<br>• Mini USB cable - USB type A (x1)<br>• Jumper cable (1 set) |
