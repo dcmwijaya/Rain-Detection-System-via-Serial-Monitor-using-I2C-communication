@@ -196,7 +196,7 @@ Basically, a device can be communicated with other devices either wirelessly or 
 <th width="840">Rain Detection Device</th>
 </tr>
 <tr>
-<td><img src="" alt="hardware"></td>
+<td><img src="https://github.com/devancakra/Rain-Detection-System-with-I2C-communication/assets/54527592/7a13e91f-c49e-4131-8d9b-66d21eea0293" alt="hardware"></td>
 </tr>
 </table>
 <table>
@@ -204,8 +204,8 @@ Basically, a device can be communicated with other devices either wirelessly or 
 <th width="840" colspan="2">Serial Monitor</th>
 </tr>
 <tr>
-<td><img src="" alt="serialmonitor-1"></td>
-<td><img src="" alt="serialmonitor-2"></td>
+<td width="420"><img src="https://github.com/devancakra/Rain-Detection-System-with-I2C-communication/assets/54527592/b066934c-585d-43f2-9ba5-50645f8104c9" alt="serialmonitor-1"></td>
+<td width="420"><img src="https://github.com/devancakra/Rain-Detection-System-with-I2C-communication/assets/54527592/f4a00e7e-144e-4bc1-8372-b72581203c4b" alt="serialmonitor-2"></td>
 </tr>
 </table>
 
