@@ -6,8 +6,8 @@
 #define slaveAddress 1 // defining I2C address to connect with Master
 #define dataretrievalSize 23 // defining size on data retrieval
 #define dataTransmissionSize 27 // defining size on data transmission
-String data; // string variable used to retrieve data from the Arduino Mega
-String getData; // string variable used to get data from the Arduino Mega
+String response; // string variable used to send data to Arduino Mega
+String getData; // string variable used to get data from Arduino Mega
 
 // Method: setup
 void setup() {
@@ -27,10 +27,10 @@ void loop() {
 void sensor(){
   int sensorState = digitalRead(raindropSensorPin); // read the sensor on digital: D2
   if(sensorState == LOW){ // sensor detected wet then
-    data = "Rain Warning"; // print to serial monitor
+    response = "Rain Warning"; // print to serial monitor
   }
   if(sensorState == HIGH){ // sensor detected dry then
-    data = "Not Raining"; // print to serial monitor
+    response = "Not Raining"; // print to serial monitor
   }
 }
 
@@ -43,8 +43,8 @@ void dataRetrieval(){
 
 // Method: dataTransmission
 void dataTransmission(){
-  byte sendData[dataTransmissionSize]; // setup byte variable in the correct size
-  for(byte i=0;i<dataTransmissionSize;i++) { sendData[i] = (byte)data.charAt(i); } // format data as array
-  Wire.write(sendData,sizeof(sendData)); // send response to Master
-  Serial.print("Data transmission\t: "); Serial.println(data); // print to serial monitor
+  byte data[dataTransmissionSize]; // setup byte variable in the correct size
+  for(byte i=0;i<dataTransmissionSize;i++) { data[i] = (byte)response.charAt(i); } // format data as array
+  Wire.write(data,sizeof(sendData)); // send response to Master
+  Serial.print("Data transmission\t: "); Serial.println(response); // print to serial monitor
 }
