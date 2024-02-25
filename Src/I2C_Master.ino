@@ -14,7 +14,7 @@ void setup() {
   Wire.begin(slaveAddress); // I2C communications to Slave
   Wire.onRequest(dataTransmission); // function to run when data requested from Slave
   pinMode(ledPin, OUTPUT); // sets the digital pin 13 as output
-  digitalWrite(ledPin, LOW); // sets the digital pin 13 off
+  digitalWrite(ledPin, LOW); // sets the digital pin 13 off at initial start
   Serial.begin(9600); // baudrate serial monitor
 }
 
