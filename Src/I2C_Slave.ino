@@ -45,6 +45,6 @@ void dataRetrieval(){
 void dataTransmission(){
   byte data[dataTransmissionSize]; // setup byte variable in the correct size
   for(byte i=0;i<dataTransmissionSize;i++) { data[i] = (byte)response.charAt(i); } // format data as array
-  Wire.write(data,sizeof(sendData)); // send response to Master
+  Wire.write(data,sizeof(data)); // send response to Master
   Serial.print("Data transmission\t: "); Serial.println(response); // print to serial monitor
 }
