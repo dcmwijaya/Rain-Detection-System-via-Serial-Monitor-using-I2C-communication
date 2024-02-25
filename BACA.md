@@ -5,7 +5,7 @@
 
 # Rain-Detection-System-with-I2C-communication
 <strong>Proyek Tunggal: Sistem Deteksi Hujan dengan komunikasi I2C</strong><br><br>
-Alat ini dapat bekerja dengan baik dengan atau tanpa air. Saat dalam kondisi basah, sensor akan menyalakan LED dan mengirimkan respons sesuai situasi. Saat kering, sensor akan mematikan LED dan mengirimkan respons sesuai dengan situasi. Proyek ini dibuat untuk meningkatkan kualitas sistem pada alat pendeteksi hujan. Inovasi yang diterapkan dalam proyek ini adalah komunikasi I2C.
+Perangkat ini dapat bekerja dengan baik dengan atau tanpa air. Saat dalam kondisi basah, sensor akan menyalakan LED dan mengirimkan respons sesuai situasi. Saat kering, sensor akan mematikan LED dan mengirimkan respons sesuai dengan situasi. Proyek ini dibuat untuk meningkatkan kualitas sistem pada alat pendeteksi hujan. Inovasi yang diterapkan dalam proyek ini adalah komunikasi I2C.
 
 <br><br>
 
