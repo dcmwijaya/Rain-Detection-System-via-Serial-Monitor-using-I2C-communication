@@ -2,11 +2,11 @@
 #include <Wire.h> // calls a library called Wire
 
 // variable initialization
-#define ledPin 13 // defining raindrop sensor uses pin: D13
+#define ledPin 13 // defining led uses pin: D13
 #define slaveAddress 1 // defining I2C address to connect with Slave
 #define dataretrievalSize 27 // defining size on data retrieval
 #define dataTransmissionSize 23 // defining size on data transmission
-String data; // string variable used to retrieve data from the Arduino Nano
+String sendData; // string variable used to send data to Arduino Nano
 String getData; // string variable used to get data from the Arduino Nano
 
 // Method: setup
@@ -34,20 +34,20 @@ void dataRetrieval(){
 
 // Method: dataTransmission
 void dataTransmission(){
-  byte sendData[dataTransmissionSize]; // setup byte variable in the correct size
-  for(byte i=0;i<dataTransmissionSize;i++) { sendData[i] = (byte)data.charAt(i); } // format data as array
-  Wire.write(sendData,sizeof(sendData)); // send response to Slave
-  Serial.print("Data transmission\t: "); Serial.println(data); // print to serial monitor
+  byte data[dataTransmissionSize]; // setup byte variable in the correct size
+  for(byte i=0;i<dataTransmissionSize;i++) { data[i] = (byte)sendData.charAt(i); } // format sendData as array
+  Wire.write(data,sizeof(data)); // send data to Slave
+  Serial.print("Data transmission\t: "); Serial.println(sendData); // print to serial monitor
 }
 
 // Method: rain indicator
 void rainIndicator(){
   if(getData == "Not Raining"){
     digitalWrite(ledPin, LOW); // sets the digital pin 13 off
-    data = "LED OFF (Safe)"; // response in the serial monitor
+    sendData = "LED OFF (Safe)"; // print to serial monitor
   }
   if(getData == "Rain Warning"){
     digitalWrite(ledPin, HIGH); // sets the digital pin 13 on
-    data = "LED ON (Danger)"; // response in the serial monitor
+    sendData = "LED ON (Danger)"; // print to serial monitor
   }
 }
