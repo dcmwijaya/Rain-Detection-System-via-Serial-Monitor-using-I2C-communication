@@ -7,6 +7,7 @@
 #define dataretrievalSize 23 // defining size on data retrieval
 #define dataTransmissionSize 27 // defining size on data transmission
 String data; // string variable used to retrieve data from the Arduino Mega
+String getData; // string variable used to get data from the Arduino Mega
 
 // Method: setup
 void setup() {
@@ -36,14 +37,14 @@ void sensor(){
 // Method: dataRetrieval
 void dataRetrieval(){
   Wire.requestFrom(slaveAddress,dataretrievalSize); // read response from Master
-  String response = ""; while(Wire.available()){ response += char(Wire.read()); } // add characters to string
-  Serial.print("Data retrieval\t\t: "); Serial.println(response); // print to serial monitor
+  getData = ""; while(Wire.available()){ getData += char(Wire.read()); } // add characters to string
+  Serial.print("Data retrieval\t\t: "); Serial.println(getData); // print to serial monitor
 }
 
 // Method: dataTransmission
 void dataTransmission(){
-  byte response[dataTransmissionSize]; // setup byte variable in the correct size
-  for(byte i=0;i<dataTransmissionSize;i++) { response[i] = (byte)data.charAt(i); } // format data as array
-  Wire.write(response,sizeof(response)); // send response to Master
+  byte sendData[dataTransmissionSize]; // setup byte variable in the correct size
+  for(byte i=0;i<dataTransmissionSize;i++) { sendData[i] = (byte)data.charAt(i); } // format data as array
+  Wire.write(sendData,sizeof(sendData)); // send response to Master
   Serial.print("Data transmission\t: "); Serial.println(data); // print to serial monitor
 }
