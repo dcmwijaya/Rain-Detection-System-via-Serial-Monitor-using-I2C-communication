@@ -2,10 +2,11 @@
 #include <Wire.h> // calls a library called Wire
 
 // variable initialization
+#define raindropSensorPin 2 // defining raindrop sensor uses pin: D2
 #define slaveAddress 1 // defining I2C address to connect with Master
 #define dataretrievalSize 23 // defining size on data retrieval
 #define dataTransmissionSize 27 // defining size on data transmission
-String data = "Hello Master (Arduino Mega)"; // create data to transmit to Master
+String data; // string variable used to retrieve data from the Arduino Mega
 
 // Method: setup
 void setup() {
@@ -16,8 +17,20 @@ void setup() {
 
 // Method: loop
 void loop() {
+  sensor(); // sensor logic
   dataRetrieval(); // retrieve character data from Master
   delay(1000); // time delay in loop
+}
+
+// Method: sensor
+void sensor(){
+  int sensorState = digitalRead(raindropSensorPin); // read the sensor on digital: D2
+  if(sensorState == LOW){ // sensor detected wet then
+    data = "Rain Warning"; // print to serial monitor
+  }
+  if(sensorState == HIGH){ // sensor detected dry then
+    data = "Not Raining"; // print to serial monitor
+  }
 }
 
 // Method: dataRetrieval
