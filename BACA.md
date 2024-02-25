@@ -50,20 +50,20 @@ Alat ini dapat bekerja dengan baik dengan atau tanpa air. Saat dalam kondisi bas
 ## Rancangan Proyek
 <table>
 <tr>
-<th width="420">Diagram Blok</th>
-<th width="420">Diagram Ilustrasi</th>
+<th width="840">Diagram Ilustrasi</th>
 </tr>
 <tr>
-<td><img src="" alt="Block-Diagram"></td>
 <td><img src="" alt="Pictorial-Diagram"></td>
 </tr>
 </table>
 <table>
 <tr>
-<th width="840">Pengkabelan</th>
+<th width="420">Diagram Blok</th>
+<th width="420">Pengkabelan</th>
 </tr>
 <tr>
-<td><img width="840" src="" alt="Wiring"></td>
+<td><img src="https://github.com/devancakra/Rain-Detection-System-with-I2C-communication/assets/54527592/2726b9ce-2f5f-4e73-bfdd-d17210123b15" alt="Block-Diagram"></td>
+<td><img src="" alt="Wiring"></td>
 </tr>
 </table>
 
