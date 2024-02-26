@@ -50,20 +50,20 @@ Perangkat ini dapat bekerja dengan baik dengan atau tanpa air. Saat dalam kondis
 ## Rancangan Proyek
 <table>
 <tr>
-<th width="840">Diagram Ilustrasi</th>
+<th width="420">Diagram Ilustrasi</th>
+<th width="420">Pengkabelan</th>
 </tr>
 <tr>
 <td><img src="https://github.com/devancakra/Rain-Detection-System-with-I2C-communication/assets/54527592/f474d486-14e1-4321-9a9b-60f5914a4f9a" alt="Pictorial-Diagram"></td>
+<td><img src="https://github.com/devancakra/Rain-Detection-System-with-I2C-communication/assets/54527592/76672494-36a6-47e1-b88e-5da3fe424cd6" alt="Wiring"></td>
 </tr>
 </table>
 <table>
 <tr>
-<th width="420">Diagram Blok</th>
-<th width="420">Pengkabelan</th>
+<th width="840">Diagram Blok</th>
 </tr>
 <tr>
 <td><img src="https://github.com/devancakra/Rain-Detection-System-with-I2C-communication/assets/54527592/2726b9ce-2f5f-4e73-bfdd-d17210123b15" alt="Block-Diagram"></td>
-<td><img src="" alt="Wiring"></td>
 </tr>
 </table>
 
