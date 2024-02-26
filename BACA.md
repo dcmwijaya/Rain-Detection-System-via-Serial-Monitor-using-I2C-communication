@@ -53,7 +53,7 @@ Perangkat ini dapat bekerja dengan baik dengan atau tanpa air. Saat dalam kondis
 <th width="840">Diagram Ilustrasi</th>
 </tr>
 <tr>
-<td><img src="" alt="Pictorial-Diagram"></td>
+<td><img src="https://github.com/devancakra/Rain-Detection-System-with-I2C-communication/assets/54527592/f474d486-14e1-4321-9a9b-60f5914a4f9a" alt="Pictorial-Diagram"></td>
 </tr>
 </table>
 <table>
