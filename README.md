@@ -63,7 +63,7 @@ This device can work well with or without water. When in wet condition, the sens
 </tr>
 <tr>
 <td><img src="https://github.com/devancakra/Rain-Detection-System-with-I2C-communication/assets/54527592/2726b9ce-2f5f-4e73-bfdd-d17210123b15" alt="Block-Diagram"></td>
-<td><img src="" alt="Wiring"></td>
+<td><img src="https://github.com/devancakra/Rain-Detection-System-with-I2C-communication/assets/54527592/76672494-36a6-47e1-b88e-5da3fe424cd6" alt="Wiring"></td>
 </tr>
 </table>
 
