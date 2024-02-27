@@ -1,10 +1,10 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
-![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Rain-Detection-System-using-I2C-communication)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Rain-Detection-System-via-Serial-Monitor-using-I2C-communication)
 ![Project](https://img.shields.io/badge/Project-Arduino-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
-# Rain-Detection-System-using-I2C-communication
-<strong>Proyek Tunggal: Sistem Deteksi Hujan menggunakan komunikasi I2C</strong><br><br>
+# Rain-Detection-System-via-Serial-Monitor-using-I2C-communication
+<strong>Proyek Tunggal: Sistem Deteksi Hujan via Serial Monitor menggunakan komunikasi I2C</strong><br><br>
 Perangkat ini dapat bekerja dengan baik dengan atau tanpa air. Saat dalam kondisi basah, sensor akan menyalakan LED dan mengirimkan respons sesuai situasi. Saat kering, sensor akan mematikan LED dan mengirimkan respons sesuai dengan situasi. Proyek ini dibuat untuk meningkatkan kualitas sistem pada alat pendeteksi hujan. Inovasi yang diterapkan dalam proyek ini adalah komunikasi I2C.
 
 <br><br>
