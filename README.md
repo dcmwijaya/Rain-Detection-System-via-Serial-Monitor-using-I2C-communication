@@ -1,10 +1,10 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
-![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Rain-Detection-System-using-I2C-communication)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Rain-Detection-System-via-Serial-Monitor-using-I2C-communication)
 ![Project](https://img.shields.io/badge/Project-Arduino-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
-# Rain-Detection-System-using-I2C-communication
-<strong>Solo Project: Rain Detection System using I2C communication</strong><br><br>
+# Rain-Detection-System-via-Serial-Monitor-using-I2C-communication
+<strong>Solo Project: Rain Detection System via Serial Monitor using I2C communication</strong><br><br>
 This device can work well with or without water. When in wet condition, the sensor will turn on the LED and send a response according to the situation. When dry, the sensor will turn off the LED and send a response according to the situation. This project was created to improve the quality of the rain detection system. The innovation applied in this project is I2C communication.
 
 <br><br>
