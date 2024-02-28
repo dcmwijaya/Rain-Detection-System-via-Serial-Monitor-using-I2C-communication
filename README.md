@@ -5,7 +5,7 @@
 
 # Rain-Detection-System-via-Serial-Monitor-using-I2C-communication
 <strong>Solo Project: Rain Detection System via Serial Monitor using I2C communication</strong><br><br>
-This device can work well with or without water. When in wet condition, the sensor will turn on the LED and send a response according to the situation. When dry, the sensor will turn off the LED and send a response according to the situation. This project was created to improve the quality of the rain detection system. The innovation applied in this project is I2C communication.
+Rain is a natural phenomenon that often occurs in several countries, especially tropical regions like Indonesia. This phenomenon can be a blessing and can also be a disaster for some people. Basically, this project was created to help the community in terms of rain detection. In addition, it aims to educate as well as make a real contribution to technological development. This project has been done and took approximately 3 days. This device can work well with or without water. When in wet conditions, the sensor will turn on the LED and send a response according to the situation. When dry, the sensor will turn off the LED and send a response according to the situation. The innovation applied in this project is I2C communication. The system interface can be accessed via Serial Monitor.
 
 <br><br>
 
