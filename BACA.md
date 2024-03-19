@@ -20,7 +20,7 @@ Hujan adalah fenomena alam yang kerap terjadi di beberapa negara, terutama wilay
 | Pustaka Arduino | Wire (bawaan) |
 | Aktuator | LED (x1) |
 | Sensor | MH-RD: Modul Sensor Tetesan Air Hujan (x1) |
-| Komponen Lainnya | • Kabel Mikro USB - USB tipe A (x1)<br>• Kabel Mini USB - USB tipe A (x1)<br>• Kabel jumper (1 set) |
+| Komponen Lainnya | • Kabel USB Mikro - USB tipe A (x1)<br>• Kabel USB Mini - USB tipe A (x1)<br>• Kabel jumper (1 set) |
 
 <br><br>
 
