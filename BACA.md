@@ -14,7 +14,7 @@ Hujan adalah fenomena alam yang kerap terjadi di beberapa negara, terutama wilay
 | --- | --- |
 | Papan Pengembangan | • Arduino Mega 2560<br>• Arduino Nano V3 |
 | Editor Kode | Arduino IDE |
-| Driver | USB-Serial CH340 |
+| Driver | CH340 USB Driver |
 | Protokol Komunikasi | Inter Integrated Circuit (I2C) |
 | Bahasa Pemrograman | C/C++ |
 | Pustaka Arduino | Wire (bawaan) |
@@ -30,17 +30,17 @@ Hujan adalah fenomena alam yang kerap terjadi di beberapa negara, terutama wilay
    <table><tr><td width="810">
 
    ```
-   https://www.arduino.cc/en/software
+   https://bit.ly/ArduinoIDE_Installer
    ```
 
    </td></tr></table><br>
    
-2. USB-Serial CH340
+2. CH340 USB Driver
 
    <table><tr><td width="810">
 
    ```
-   https://bit.ly/CH340_Driver
+   https://bit.ly/CH340_USB_Driver
    ```
 
    </td></tr></table>
