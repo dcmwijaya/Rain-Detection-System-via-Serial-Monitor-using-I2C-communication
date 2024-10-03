@@ -1,7 +1,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
-![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Rain-Detection-System-via-Serial-Monitor-using-I2C-communication)
-![Project](https://img.shields.io/badge/Project-I2C-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Rain-Detection-System-via-Serial-Monitor-using-I2C-communication?logo=Codeforces&logoColor=white&color=%23F7DF1E)
+![Project](https://img.shields.io/badge/Project-Arduino-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
+![Type](https://img.shields.io/badge/Type-Personal%20Experiment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Rain-Detection-System-via-Serial-Monitor-using-I2C-communication
 <strong>Solo Project: Rain Detection System via Serial Monitor using I2C communication</strong><br><br>
@@ -54,8 +55,8 @@ Rain is a natural phenomenon that often occurs in several countries, especially 
 <th width="420">Wiring</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/Rain-Detection-System-with-I2C-communication/assets/54527592/f474d486-14e1-4321-9a9b-60f5914a4f9a" alt="Pictorial-Diagram"></td>
-<td><img src="https://github.com/devancakra/Rain-Detection-System-with-I2C-communication/assets/54527592/76672494-36a6-47e1-b88e-5da3fe424cd6" alt="Wiring"></td>
+<td><img src="Assets/Documentation/Diagram/Pictorial Diagram.jpg" alt="pictorial-diagram"></td>
+<td><img src="Assets/Documentation/Table/Device Wiring.jpg" alt="wiring"></td>
 </tr>
 </table>
 <table>
@@ -63,7 +64,7 @@ Rain is a natural phenomenon that often occurs in several countries, especially 
 <th width="840">Block Diagram</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/Rain-Detection-System-with-I2C-communication/assets/54527592/2726b9ce-2f5f-4e73-bfdd-d17210123b15" alt="Block-Diagram"></td>
+<td><img src="Assets/Documentation/Diagram/Block Diagram.jpg" alt="block-diagram"></td>
 </tr>
 </table>
 
@@ -188,7 +189,7 @@ Basically, a device can be communicated with other devices either wirelessly or 
 <th width="840">Rain Detection Device</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/Rain-Detection-System-with-I2C-communication/assets/54527592/7a13e91f-c49e-4131-8d9b-66d21eea0293" alt="hardware"></td>
+<td><img src="Assets/Documentation/Experiment/Device.jpg" alt="hardware"></td>
 </tr>
 </table>
 <table>
@@ -196,8 +197,8 @@ Basically, a device can be communicated with other devices either wirelessly or 
 <th width="840" colspan="2">Serial Monitor</th>
 </tr>
 <tr>
-<td width="420"><img src="https://github.com/devancakra/Rain-Detection-System-with-I2C-communication/assets/54527592/b066934c-585d-43f2-9ba5-50645f8104c9" alt="serialmonitor-1"></td>
-<td width="420"><img src="https://github.com/devancakra/Rain-Detection-System-with-I2C-communication/assets/54527592/f4a00e7e-144e-4bc1-8372-b72581203c4b" alt="serialmonitor-2"></td>
+<td width="420"><img src="Assets/Documentation/Experiment/Not Raining.jpg" alt="serialmonitor-1"></td>
+<td width="420"><img src="Assets/Documentation/Experiment/Rain Warning.jpg" alt="serialmonitor-2"></td>
 </tr>
 </table>
 
@@ -209,7 +210,7 @@ If this work is useful to you, then support this work as a form of appreciation 
 <br><br>
 
 ## Disclaimer
-This application has been created by including third-party sources. Third parties here are service providers, whose services are in the form of libraries, frameworks, and others. I thank you very much for the service. It has proven to be very helpful and implementable.
+This application is my own work and is not the result of plagiarism from other people's research or work, except those related to third party services which include: libraries, frameworks, and so on.
 
 <br><br>
 
