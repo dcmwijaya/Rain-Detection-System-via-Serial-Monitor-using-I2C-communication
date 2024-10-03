@@ -5,7 +5,6 @@
 ![Type](https://img.shields.io/badge/Type-Personal%20Experiment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Rain-Detection-System-via-Serial-Monitor-using-I2C-communication
-<strong>Proyek Tunggal: Sistem Deteksi Hujan via Serial Monitor menggunakan komunikasi I2C</strong><br><br>
 Hujan adalah fenomena alam yang kerap terjadi di beberapa negara, terutama wilayah tropis seperti Indonesia. Fenomena ini dapat menjadi berkah dan juga dapat menjadi bencana bagi sebagian orang. Pada dasarnya proyek ini dibuat untuk membantu masyarakat dalam hal pendeteksian hujan. Selain itu bertujuan untuk mengedukasi sekaligus memberikan konstribusi yang nyata terhadap perkembangan teknologi. Proyek ini telah dikerjakan dan memakan waktu selama kurang lebih 3 hari. Perangkat ini dapat bekerja dengan baik dengan atau tanpa air. Saat dalam kondisi basah, sensor akan menyalakan LED dan mengirimkan respons sesuai dengan situasi. Saat kering, sensor akan mematikan LED dan mengirimkan respons sesuai dengan situasi. Inovasi yang diterapkan dalam proyek ini adalah komunikasi I2C. Antarmuka sistem dapat diakses melalui Serial Monitor.
 
 <br><br>
